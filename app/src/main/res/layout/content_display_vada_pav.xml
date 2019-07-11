@@ -20,10 +20,54 @@
             android:contentDescription="Vada Pav"
             app:srcCompat="@drawable/vadapav" />
 
-        <TextView
-            android:id="@+id/textView3"
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/large_text" />
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:background="#FAFAFA"
+            android:clipChildren="false"
+            android:orientation="vertical"
+            android:paddingBottom="20dp">
+
+
+            <com.alespero.expandablecardview.ExpandableCardView
+                android:id="@+id/About"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                app:expandOnClick="true"
+                app:inner_view="@layout/info_vadapav"
+                app:title="About" />
+
+            <com.alespero.expandablecardview.ExpandableCardView
+                android:id="@+id/recipe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                app:expandOnClick="true"
+                app:inner_view="@layout/recipe_vadapav"
+                app:title="Recipe" />
+
+
+            <com.alespero.expandablecardview.ExpandableCardView
+                android:id="@+id/nutrition_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                app:expandOnClick="true"
+                app:inner_view="@layout/nutrition_vadapav"
+                app:title="Nutrition value" />
+
+        </LinearLayout>
+
     </LinearLayout>
 </android.support.v4.widget.NestedScrollView>

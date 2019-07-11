@@ -38,7 +38,7 @@
                 android:layout_marginRight="20dp"
                 android:layout_marginBottom="10dp"
                 app:expandOnClick="true"
-                app:inner_view="@layout/info_samosa"
+                app:inner_view="@layout/info_mendu"
                 app:title="About" />
 
             <com.alespero.expandablecardview.ExpandableCardView
@@ -50,7 +50,7 @@
                 android:layout_marginRight="20dp"
                 android:layout_marginBottom="10dp"
                 app:expandOnClick="true"
-                app:inner_view="@layout/recipe_samosa"
+                app:inner_view="@layout/recipe_medu"
                 app:title="Recipe" />
 
 
@@ -63,7 +63,7 @@
                 android:layout_marginRight="20dp"
                 android:layout_marginBottom="10dp"
                 app:expandOnClick="true"
-                app:inner_view="@layout/nutrition_samosa"
+                app:inner_view="@layout/nutrition_mendu"
                 app:title="Nutrition value" />
 
         </LinearLayout>
