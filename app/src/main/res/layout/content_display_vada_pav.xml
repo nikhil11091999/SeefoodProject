@@ -17,7 +17,6 @@
             android:id="@+id/vadaPavImage"
             android:layout_width="match_parent"
             android:layout_height="171dp"
-            android:contentDescription="Vada Pav"
             app:srcCompat="@drawable/vadapav" />
 
         <LinearLayout
@@ -27,7 +26,8 @@
             android:background="#FAFAFA"
             android:clipChildren="false"
             android:orientation="vertical"
-            android:paddingBottom="20dp">
+            android:paddingBottom="20dp"
+            >
 
 
             <com.alespero.expandablecardview.ExpandableCardView
@@ -39,8 +39,8 @@
                 android:layout_marginRight="20dp"
                 android:layout_marginBottom="10dp"
                 app:expandOnClick="true"
-                app:inner_view="@layout/info_vadapav"
-                app:title="About" />
+                app:title="About"
+                app:inner_view="@layout/info_vadapav"/>
 
             <com.alespero.expandablecardview.ExpandableCardView
                 android:id="@+id/recipe"
@@ -51,8 +51,8 @@
                 android:layout_marginRight="20dp"
                 android:layout_marginBottom="10dp"
                 app:expandOnClick="true"
-                app:inner_view="@layout/recipe_vadapav"
-                app:title="Recipe" />
+                app:title="Recipe"
+                app:inner_view="@layout/recipe_vadapav"/>
 
 
             <com.alespero.expandablecardview.ExpandableCardView
@@ -64,10 +64,11 @@
                 android:layout_marginRight="20dp"
                 android:layout_marginBottom="10dp"
                 app:expandOnClick="true"
-                app:inner_view="@layout/nutrition_vadapav"
-                app:title="Nutrition value" />
+                app:title="Nutrition value"
+                app:inner_view="@layout/nutrition_vadapav"/>
 
         </LinearLayout>
+
 
     </LinearLayout>
 </android.support.v4.widget.NestedScrollView>

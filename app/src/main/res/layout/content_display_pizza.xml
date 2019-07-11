@@ -19,12 +19,55 @@
             android:layout_height="171dp"
             app:srcCompat="@drawable/pizza" />
 
-        <TextView
-            android:id="@+id/textView"
-            android:drawable="@drawable/tfl_logo"
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/large_text" />
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:background="#FAFAFA"
+            android:clipChildren="false"
+            android:orientation="vertical"
+            android:paddingBottom="20dp"
+            >
+
+
+            <com.alespero.expandablecardview.ExpandableCardView
+                android:id="@+id/About"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                app:expandOnClick="true"
+                app:title="About"
+                app:inner_view="@layout/info_pizza"/>
+
+            <com.alespero.expandablecardview.ExpandableCardView
+                android:id="@+id/recipe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                app:expandOnClick="true"
+                app:title="Recipe"
+                app:inner_view="@layout/recipe_pizza"/>
+
+
+            <com.alespero.expandablecardview.ExpandableCardView
+                android:id="@+id/nutrition_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                app:expandOnClick="true"
+                app:title="Nutrition value"
+                app:inner_view="@layout/nutrition_pizza"/>
+
+        </LinearLayout>
 
     </LinearLayout>
 </android.support.v4.widget.NestedScrollView>

@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_width="match_parent" android:layout_height="match_parent">
 
     <android.support.v4.widget.NestedScrollView
         android:id="@+id/sc_view"
@@ -26,7 +25,7 @@
             android:orientation="vertical">
 
             <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
-                android:id="@+id/card_view15"
+                android:id="@+id/card_view4"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="10dp"
@@ -54,7 +53,7 @@
                             android:id="@+id/textView5"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginLeft="15dp"
+                            android:layout_marginLeft="10dp"
                             android:layout_marginTop="10dp"
                             android:text="Total Time"
                             android:textColor="@color/colorPrimary"
@@ -65,7 +64,7 @@
                             android:id="@+id/textView4"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginLeft="40dp"
+                            android:layout_marginLeft="38dp"
                             android:layout_marginTop="10dp"
                             android:text="Prep Time"
                             android:textColor="@color/colorPrimary"
@@ -76,7 +75,7 @@
                             android:id="@+id/textView3"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginLeft="40dp"
+                            android:layout_marginLeft="45dp"
                             android:layout_marginTop="10dp"
                             android:text="Calories"
                             android:textColor="@color/colorPrimary"
@@ -86,15 +85,15 @@
 
                     <LinearLayout
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent"
+                        android:layout_height="30dp"
                         android:orientation="horizontal">
 
                         <TextView
                             android:id="@+id/textView7"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginLeft="28dp"
-                            android:text="35 min"
+                            android:layout_marginLeft="24dp"
+                            android:text="40 min"
                             android:textColor="@color/colorPrimary"
                             android:textSize="12sp" />
 
@@ -103,7 +102,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="60dp"
-                            android:text="15 min"
+                            android:text="20 min"
                             android:textColor="@color/colorPrimary"
                             android:textSize="12sp" />
 
@@ -111,8 +110,8 @@
                             android:id="@+id/textView"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginLeft="60dp"
-                            android:text="270"
+                            android:layout_marginLeft="70dp"
+                            android:text="306"
                             android:textColor="@color/colorPrimary"
                             android:textSize="12sp" />
                     </LinearLayout>
@@ -120,9 +119,9 @@
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
-                android:id="@+id/card_view4"
+                android:id="@+id/card_view5"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_margin="10dp"
                 android:layout_marginStart="10dp"
                 android:layout_marginLeft="10dp"
@@ -133,18 +132,24 @@
                 card_view:cardCornerRadius="10dp"
                 card_view:cardElevation="10dp">
 
-                <TextView
-                    android:id="@+id/textView8"
+                <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="5dp"
-                    android:layout_marginTop="30dp"
-                    android:layout_marginRight="5dp"
-                    android:layout_marginBottom="20dp"
-                    android:gravity="center"
-                    android:text=" Vada Pav is one of the most popular snack recipes of Maharashtrian cuisine and is best enjoyed with a spicy chutney and green chilli. It is one of those dishes that can be enjoyed anytime, be it breakfast, lunch or even evening snack. This popular snack recipe is not delicious but easy too as it can be made in juts 30-40 minutes. You can also improvise this recipe and make burgers or wraps using the prepared vadas. The vada can be eaten just as they are with chutney as a light snack. So what are you waiting for? go ahead and try this very simple and fun to eat recipe!  "
-                    android:textColor="@android:color/black" />
+                    android:layout_height="match_parent"
+                    android:layout_margin="15dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginBottom="20dp"
+                        android:gravity="center"
+                        android:text="No comfort food is better than a pizza loaded with cheese. Our love for this delightful import from Italy is so immense that no celebration, no party, no happiness is complete without ordering pizza. Gone are the days of craving for burgers, chowmein and momos as pizza tops the list of all cravings. While the store bought pizza is seemingly clean, we are not sure what all goes into the making it. It is always a good idea to prepare your kid's favorite food at home because then you are able to control the quality of the ingredients that goes into their food. This Cheese Pizza is easy to make and is very delicious. You can make it in the microwave, in an OTG or even on a pan. To make the pizza on pan, you need to either par-boil or saute the veggies for 4-5 minutes so that they are partially cooked. You can also make your pizza healthier by making it on wheat base. Add the cheese of your choice to make it tastier. To make it more delicious you can add your own innovation to this pizza recipe by preparing the base sauce at home. This is another simple way to make it more tasty and healthy. Also, if you are some who loves the cheesy white sauce, then you make it more delicious by preparing cheesy white sauces as a base and topping it up with more cheese and choice of veggies and garnish with some chili flakes and oregano. So don a chef’s hat and try out this super easy pizza recipe!  "
+                        android:textColor="@android:color/black" />
+                </LinearLayout>
             </android.support.v7.widget.CardView>
+
 
             <TextView
                 android:id="@+id/textView9"
@@ -153,13 +158,13 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="10dp"
                 android:layout_marginBottom="20dp"
-                android:text="Ingredients Of Vada:"
+                android:text="Ingredients Of Cheese Pizza:"
                 android:textColor="@color/colorPrimary"
                 android:textSize="24sp"
                 android:textStyle="bold" />
 
             <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
-                android:id="@+id/card_view9"
+                android:id="@+id/card_view6"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="10dp"
@@ -189,7 +194,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="10dp"
                             android:layout_weight="1"
-                            android:text="-3 boiled potato"
+                            android:text="-2 readymade pizza base"
                             android:textColor="@color/colorPrimary" />
 
                     </LinearLayout>
@@ -205,7 +210,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="10dp"
                             android:layout_weight="1"
-                            android:text="-1 1/2 cup gram flour (besan)"
+                            android:text="-150 gm shredded mozzarella"
                             android:textColor="@color/colorPrimary" />
 
                     </LinearLayout>
@@ -221,7 +226,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="10dp"
                             android:layout_weight="1"
-                            android:text="-4 pav"
+                            android:text="-1 1/2 tablespoon tomato ketchup"
                             android:textColor="@color/colorPrimary" />
 
                     </LinearLayout>
@@ -237,7 +242,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="10dp"
                             android:layout_weight="1"
-                            android:text="-1 tablespoon finely chopped garlic"
+                            android:text="-1/2 teaspoon powdered salt"
                             android:textColor="@color/colorPrimary" />
 
                     </LinearLayout>
@@ -253,7 +258,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="10dp"
                             android:layout_weight="1"
-                            android:text="-1 tablespoon finely chopped ginger"
+                            android:text="-1 pinch powdered black pepper"
                             android:textColor="@color/colorPrimary" />
 
                     </LinearLayout>
@@ -269,7 +274,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="10dp"
                             android:layout_weight="1"
-                            android:text="-1 teaspoon finely chopped green chillies"
+                            android:text="-100 gm chopped onion"
                             android:textColor="@color/colorPrimary" />
 
                     </LinearLayout>
@@ -285,7 +290,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="10dp"
                             android:layout_weight="1"
-                            android:text="-salt as required"
+                            android:text="-100 gm chopped tomato"
                             android:textColor="@color/colorPrimary" />
 
                     </LinearLayout>
@@ -301,7 +306,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="10dp"
                             android:layout_weight="1"
-                            android:text="-2 tablespoon curry leaves"
+                            android:text="-70 gm chopped capsicum ( green pepper)"
                             android:textColor="@color/colorPrimary" />
 
                     </LinearLayout>
@@ -317,74 +322,11 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="10dp"
                             android:layout_weight="1"
-                            android:text="-2 cup rice bran oil"
+                            android:text="-50 gm sliced mushroom"
                             android:textColor="@color/colorPrimaryDark" />
 
                     </LinearLayout>
 
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:orientation="horizontal">
-
-                        <TextView
-                            android:id="@+id/textView28"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginLeft="10dp"
-                            android:layout_weight="1"
-                            android:text="-4 red chilli"
-                            android:textColor="@color/colorPrimaryDark" />
-
-                    </LinearLayout>
-
-                    <TextView
-                        android:id="@+id/textView30"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:text="-2 tablespoon white sesame seeds"
-                        android:textColor="@color/colorPrimaryDark" />
-
-                    <TextView
-                        android:id="@+id/textView11"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:text="-2 tablespoon green chutney"
-                        android:textColor="@color/colorPrimaryDark" />
-
-                    <TextView
-                        android:id="@+id/textView14"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:text="-2 tablespoon tamarind chutney"
-                        android:textColor="@color/colorPrimaryDark" />
-
-                    <TextView
-                        android:id="@+id/textView16"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:text="-1/4 cup butter"
-                        android:textColor="@color/colorPrimary" />
-
-                    <TextView
-                        android:id="@+id/textView19"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:text="-1 tablespoon coriander powder"
-                        android:textColor="@color/colorPrimaryDark" />
-
-                    <TextView
-                        android:id="@+id/textView20"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:text="-1 tablespoon mustard seeds"
-                        android:textColor="@color/colorPrimary" />
                 </LinearLayout>
             </android.support.v7.widget.CardView>
 
@@ -395,117 +337,13 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="20dp"
-                android:text="How to make Vada:"
+                android:text="How to make Samosa:"
                 android:textColor="@color/colorPrimaryDark"
                 android:textSize="24sp"
                 android:textStyle="bold" />
 
             <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
-                android:id="@+id/card_view3"
-                android:layout_width="match_parent"
-                android:layout_height="350dp"
-                android:layout_margin="10dp"
-                android:layout_marginStart="10dp"
-                android:layout_marginLeft="10dp"
-                android:layout_marginTop="10dp"
-                android:layout_marginEnd="10dp"
-                android:layout_marginRight="10dp"
-                android:layout_marginBottom="10dp"
-                card_view:cardCornerRadius="10dp"
-                card_view:cardElevation="10dp">
-
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="horizontal">
-
-                    <ImageView
-                        android:id="@+id/imageView"
-                        android:layout_width="10dp"
-                        android:layout_height="100dp"
-                        android:layout_margin="10dp"
-                        android:layout_marginStart="10dp"
-                        android:layout_marginLeft="10dp"
-                        android:layout_marginTop="10dp"
-                        android:layout_marginEnd="10dp"
-                        android:layout_marginRight="10dp"
-                        android:layout_marginBottom="10dp"
-                        android:layout_weight="1"
-                        android:contentDescription="img"
-                        app:srcCompat="@drawable/vada1" />
-
-                    <TextView
-                        android:id="@+id/textView31"
-                        android:layout_width="50dp"
-                        android:layout_height="match_parent"
-                        android:layout_margin="10dp"
-                        android:layout_marginStart="10dp"
-                        android:layout_marginLeft="10dp"
-                        android:layout_marginTop="10dp"
-                        android:layout_marginEnd="10dp"
-                        android:layout_marginRight="10dp"
-                        android:layout_marginBottom="10dp"
-                        android:layout_weight="1"
-                        android:text="Step 1:- Vada Pav is a simple yet delicious recipe, which can be prepared in just a few minutes, you just need all the ingredients in place to prepare this recipe. Here’s how you can make this dish with some easily available ingredients in your kitchen. Take a pan and heat some oil and put mustard seeds. Once, the seeds start crackling, add the asafoetida and curry leaves and saute for a few seconds."
-                        android:textColor="@color/semi_transparent" />
-                </LinearLayout>
-            </android.support.v7.widget.CardView>
-
-            <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
-                android:id="@+id/card_view2"
-                android:layout_width="match_parent"
-                android:layout_height="300dp"
-                android:layout_margin="10dp"
-                android:layout_marginStart="10dp"
-                android:layout_marginLeft="10dp"
-                android:layout_marginTop="10dp"
-                android:layout_marginEnd="10dp"
-                android:layout_marginRight="10dp"
-                android:layout_marginBottom="10dp"
-                card_view:cardCornerRadius="10dp"
-                card_view:cardElevation="10dp">
-
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="horizontal">
-
-                    <ImageView
-                        android:id="@+id/imageView2"
-                        android:layout_width="10dp"
-                        android:layout_height="100dp"
-                        android:layout_margin="10dp"
-                        android:layout_marginStart="10dp"
-                        android:layout_marginLeft="10dp"
-                        android:layout_marginTop="10dp"
-                        android:layout_marginEnd="10dp"
-                        android:layout_marginRight="10dp"
-                        android:layout_marginBottom="10dp"
-                        android:layout_weight="1"
-                        android:contentDescription="img"
-                        app:srcCompat="@drawable/vada2" />
-
-                    <TextView
-                        android:id="@+id/textView32"
-                        android:layout_width="50dp"
-                        android:layout_height="match_parent"
-                        android:layout_margin="10dp"
-                        android:layout_marginStart="10dp"
-                        android:layout_marginLeft="10dp"
-                        android:layout_marginTop="10dp"
-                        android:layout_marginEnd="10dp"
-                        android:layout_marginRight="10dp"
-                        android:layout_marginBottom="10dp"
-                        android:layout_weight="1"
-                        android:text="Step 2:- Then add grated garlic, chopped green chillies and saute the ingredients for a few seconds.Then, add the potatoes, turmeric powder and salt and mix well. Keep aside to cool. If you want to reduce the cooking time, soak the potatoes in lukewarm water by pricking the peeled potatoes with a fork, this will make the potatoes soft."
-                        android:textColor="@color/colorPrimary" />
-                </LinearLayout>
-            </android.support.v7.widget.CardView>
-
-            <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
-                android:id="@+id/card_view1"
+                android:id="@+id/card_view7"
                 android:layout_width="match_parent"
                 android:layout_height="250dp"
                 android:layout_margin="10dp"
@@ -522,43 +360,35 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:layout_margin="10dp"
                     android:orientation="horizontal">
 
                     <ImageView
-                        android:id="@+id/imageView3"
+                        android:id="@+id/imageView"
                         android:layout_width="10dp"
                         android:layout_height="100dp"
+                        android:layout_gravity="left"
                         android:layout_margin="10dp"
                         android:layout_marginStart="10dp"
-                        android:layout_marginLeft="10dp"
-                        android:layout_marginTop="10dp"
-                        android:layout_marginEnd="10dp"
-                        android:layout_marginRight="10dp"
-                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="20dp"
                         android:layout_weight="1"
-                        app:srcCompat="@drawable/vada3" />
+                        android:contentDescription="img"
+                        card_view:srcCompat="@drawable/pizza1" />
 
                     <TextView
-                        android:id="@+id/textView33"
+                        android:id="@+id/textView31"
                         android:layout_width="50dp"
                         android:layout_height="wrap_content"
-                        android:layout_margin="10dp"
-                        android:layout_marginStart="10dp"
-                        android:layout_marginLeft="10dp"
-                        android:layout_marginTop="10dp"
-                        android:layout_marginEnd="10dp"
-                        android:layout_marginRight="10dp"
-                        android:layout_marginBottom="10dp"
                         android:layout_weight="1"
-                        android:text="Step 3:- Meanwhile, make the batter by combining besan, haldi, baking soda and little water (almost 1/3 cup).When the potato mixture has cooled, make equal sized 8 tikkis. You can give it a desired shape, in Maharashtra the vada is mostly prepared in a round shape."
-                        android:textColor="@color/colorPrimary" />
+                        android:text="Step 1:- To prepare this delicious Cheese Pizza recipe, preheat the oven on convection mode at 250 degree Celsius. Meanwhile, spread the tomato sauce evenly on each pizza base. Take a chopping board and chop onions, tomatoes, capsicum and mushroom on it."
+                        android:textColor="@color/semi_transparent" />
                 </LinearLayout>
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
-                android:id="@+id/card_view"
+                android:id="@+id/card_view11"
                 android:layout_width="match_parent"
-                android:layout_height="350dp"
+                android:layout_height="250dp"
                 android:layout_margin="10dp"
                 android:layout_marginStart="10dp"
                 android:layout_marginLeft="10dp"
@@ -569,43 +399,71 @@
                 card_view:cardCornerRadius="10dp"
                 card_view:cardElevation="10dp">
 
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:layout_margin="10dp"
                     android:orientation="horizontal">
 
                     <ImageView
-                        android:id="@+id/imageView4"
+                        android:id="@+id/imageView2"
                         android:layout_width="10dp"
                         android:layout_height="100dp"
                         android:layout_margin="10dp"
-                        android:layout_marginStart="10dp"
-                        android:layout_marginLeft="10dp"
-                        android:layout_marginTop="10dp"
-                        android:layout_marginEnd="10dp"
-                        android:layout_marginRight="10dp"
-                        android:layout_marginBottom="10dp"
                         android:layout_weight="1"
-                        app:srcCompat="@drawable/vada4" />
+                        android:contentDescription="img"
+                        card_view:srcCompat="@drawable/pizza2" />
 
                     <TextView
-                        android:id="@+id/textView34"
+                        android:id="@+id/textView32"
                         android:layout_width="50dp"
-                        android:layout_height="match_parent"
-                        android:layout_margin="10dp"
-                        android:layout_marginStart="10dp"
-                        android:layout_marginLeft="10dp"
-                        android:layout_marginTop="10dp"
-                        android:layout_marginEnd="10dp"
-                        android:layout_marginRight="10dp"
-                        android:layout_marginBottom="10dp"
+                        android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="Step 4:- Then take a shallow fry pan and heat oil. Once the oil is hot enough, then dip each tikki/ vada in the batter and then slowly slide it in the hot oil. Deep fry all 8 tikkis in hot oil, till golden brown. Drain on absorbent paper and keep aside. Slice each pav into half and place one vada in each of the pavs. Add some green chutney, spices and fried homemade chili to your Vada Pav to accentuate the taste."
-                        android:textColor="@color/semi_transparent" />
+                        android:text="Step 2:- Mix all the chopped vegetables and seasoning in a bowl. Microwave these vegetables in a microwave safe bowl for around 30-40 seconds. Spread this vegetable topping on each pizza base. Sprinkle grated mozzarella cheese at the top of each pizza."
+                        android:textColor="@color/colorPrimary" />
                 </LinearLayout>
+            </android.support.v7.widget.CardView>
 
+            <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/card_view10"
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:layout_margin="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                card_view:cardCornerRadius="10dp"
+                card_view:cardElevation="10dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="10dp"
+                        android:layout_height="100dp"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        card_view:srcCompat="@drawable/pizza3" />
+
+                    <TextView
+                        android:id="@+id/textView33"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Step 3 You can either bake this pizza in a microwave or you can use a non-stick tawa for the same. However, in this recipe we have used microwave. Bake the pizza on the high rack at 250 degree Celsius till the cheese melts. It will take around 10-12 minutes. Cut the delicious Cheese Pizza into slices and serve with sauces."
+                        android:textColor="@color/colorPrimary" />
+                </LinearLayout>
             </android.support.v7.widget.CardView>
 
         </LinearLayout>
     </android.support.v4.widget.NestedScrollView>
-</android.support.constraint.ConstraintLayout>
+</RelativeLayout>
