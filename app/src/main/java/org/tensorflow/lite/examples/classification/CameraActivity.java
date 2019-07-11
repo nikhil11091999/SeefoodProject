@@ -624,9 +624,19 @@ public abstract class CameraActivity extends AppCompatActivity
               break;
           }
           case "Dhokla": {
-              Intent intent = new Intent(this, DisplayDhoklaActivity.class);
-              startActivity(intent);
-              break;
+            Intent intent = new Intent(this, DisplayDhoklaActivity.class);
+            startActivity(intent);
+            break;
+          }
+          case "Pasta": {
+            Intent intent = new Intent(this, DisplayPastaActivity.class);
+            startActivity(intent);
+            break;
+          }
+          case "Tacos": {
+            Intent intent = new Intent(this, DisplayTacosActivity.class);
+            startActivity(intent);
+            break;
           }
       }
 

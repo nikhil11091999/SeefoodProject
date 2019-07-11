@@ -120,5 +120,7 @@
     <string name="sam">Samosa</string>
     <string name="medu">Medu vada is a South Indian fritter made from Vigna mungo. It is usually made in a doughnut shape, with a crispy exterior and soft interior. A popular food item in South Indian and Sri Lankan Tamil cuisines, it is generally eaten as a breakfast or a snack.</string>
     <string name="samosa">A samosa is a fried or baked dish with a savoury filling, such as spiced potatoes, onions, peas, meat, or lentils. It may take different forms, including triangular, cone, or half-moon shapes, depending on the region. The Indian style, often accompanied by a chutney, is probably the most widely-known of a broad family of recipes from Africa to China, which have origins in medieval times or earlier.Samosas are a popular appetizer or snack in the local cuisines of the Indian subcontinent, Western Asia, Southeast Asia, the Mediterranean, and Africa. Due to emigration and cultural diffusion from these areas, samosas in today\'s world are also prepared in other regions.</string>
+    <string name="title_activity_display_pasta">Pasta</string>
+    <string name="title_activity_display_tacos">Tacos</string>
 
 </resources>

@@ -17,9 +17,13 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".DisplayPastaActivity"
+            android:label="@string/title_activity_display_pasta"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
             android:name=".DisplayDhoklaActivity"
             android:label="@string/title_activity_display_dhokla"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".DisplayVadaPavActivity"
             android:label="@string/title_activity_display_vada_pav"
@@ -35,6 +39,10 @@
         <activity
             android:name=".DisplayPizzaActivity"
             android:label="@string/title_activity_display_pizza"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DisplayTacosActivity"
+            android:label="@string/title_activity_display_tacos"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".ClassifierActivity"
